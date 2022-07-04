@@ -58,7 +58,7 @@ if ($.isNode()) {
                     if(res['code']['success']===true){
                         break
                     }
-                    await $.wait(5000);
+                    await $.wait(3000);
                 }
                 
             }
